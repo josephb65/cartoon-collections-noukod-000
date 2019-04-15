@@ -13,9 +13,9 @@ def summon_captain_planet(veggies)# code an argument here
 
 end
 
-def long_planteer_calls(long_planteer_calls)# code an argument here
+def long_planteer_calls(calls_long)# code an argument here
   # Your code here
- long_planteer_calls.any? do |max|
+ calls_long.any? do |max|
    if max.length > 4 
      return true 
    end
